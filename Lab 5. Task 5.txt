@@ -1,0 +1,11 @@
+import random
+
+def get_random_password():
+    a = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+
+    random_num ="".join(random.sample(a,8))
+    return random_num
+
+
+print(get_random_password())
+
